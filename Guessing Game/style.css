@@ -1,16 +1,12 @@
-body {
-    background-image: url("image.jpg") ;
-
-}
 
 img {
     opacity: 0.6;
-}
+}4
 
 h1 {
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: black;
     text-decoration: underline;
 
 }
@@ -19,7 +15,13 @@ h1 {
     position: fixed;
     color: white;
     top: 30%;
-    left: 50%;
+    left: 47%;
     transform: translate(-50%, -50%);
+
+
+}
+
+input {
+    border: solid black;
 
 }
