@@ -23,3 +23,7 @@ input {
     border: solid black;
 
 }
+.container {
+    display: flex;
+    box-sizing: border-box;
+}

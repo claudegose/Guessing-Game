@@ -1,15 +1,17 @@
+let computer = Math.floor(Math.random() * 15 + 1);
+
+document.querySelector("#btn").onclick = () => {
+    let user = document.querySelector("#userGuess").value;
+
+    if (user == computer) {
+      document.querySelector("#results").innerHTML = document.write = `Awesome! You number ${user} was correct. You can be named many things, hungry not being one of them.`;
+    } else if (user < computer){
+        alert("Try a higher number!")
+    }   else if (user > computer)
+    {alert("Try a lower number ")
+    }
 
 
+}
 
-let randomNumber = Math.floor(Math.random() * 15 + 1);
 
-   document.getElementById("submitguess").onclick = function () {
-     let userNumber =  document.getElementById("guessField").value;
-
-     if (randomNumber == userNumber){
-         alert(`Congratulations, You picked ${userNumber}!`)
-     } else {
-         alert(`Sorry! You chose ${userNumber} and the correct number was ${randomNumber}. Try again!`);
-     }
-
-   }
