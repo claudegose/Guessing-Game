@@ -1,3 +1,6 @@
+body{
+    background-color: lightsteelblue;
+}
 
 
 h1 {
@@ -9,21 +12,9 @@ h1 {
 
 }
 
-.form {
-    position: fixed;
-    color: white;
-    top: 30%;
-    left: 47%;
-    transform: translate(-50%, -50%);
 
 
-}
-
-input {
-    border: solid black;
-
-}
 .container {
-    display: flex;
-    box-sizing: border-box;
+   margin-left: 550px;
+
 }
